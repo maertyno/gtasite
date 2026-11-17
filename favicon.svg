@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211333"/>
+      <stop offset="1" stop-color="#08090e"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="19" y1="12" x2="45" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffb0d0"/>
+      <stop offset=".48" stop-color="#ff5fa2"/>
+      <stop offset="1" stop-color="#e83e86"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M8 46c11-8 20-9 29-3 8 5 14 5 19 1" fill="none" stroke="#ff5fa2" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M19 17h21M25 17l-5 30M39 17l-5 30M18 47h22" fill="none" stroke="url(#pink)" stroke-linecap="round" stroke-width="6" filter="url(#glow)"/>
+  <path d="M19 17h21M25 17l-5 30M39 17l-5 30M18 47h22" fill="none" stroke="#fff1f7" stroke-opacity=".75" stroke-linecap="round" stroke-width="1.2"/>
+</svg>
