@@ -15,7 +15,6 @@
     </filter>
   </defs>
   <rect width="64" height="64" rx="16" fill="url(#bg)"/>
-  <path d="M8 46c11-8 20-9 29-3 8 5 14 5 19 1" fill="none" stroke="#ff5fa2" stroke-opacity=".28" stroke-width="2"/>
-  <path d="M19 17h21M25 17l-5 30M39 17l-5 30M18 47h22" fill="none" stroke="url(#pink)" stroke-linecap="round" stroke-width="6" filter="url(#glow)"/>
-  <path d="M19 17h21M25 17l-5 30M39 17l-5 30M18 47h22" fill="none" stroke="#fff1f7" stroke-opacity=".75" stroke-linecap="round" stroke-width="1.2"/>
+  <path d="M12 48c12-9 25-9 40-1" fill="none" stroke="#ff5fa2" stroke-opacity=".28" stroke-width="2"/>
+  <path d="M17 14h10l5 26 5-26h10L38 50H26Z" fill="url(#pink)" stroke="#fff1f7" stroke-opacity=".72" stroke-width="1.2" stroke-linejoin="round" filter="url(#glow)"/>
 </svg>
